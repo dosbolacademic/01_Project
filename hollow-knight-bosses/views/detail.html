@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{NAME}} – Hollow Knight Boss Guide</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content container">
+        <a href="/" class="back-btn">← All Bosses</a>
+        <h1>{{NAME}}</h1>
+        <span class="difficulty difficulty-{{DIFFICULTY_LOWER}}">{{DIFFICULTY}}</span>
+      </div>
+    </header>
+
+    <main class="container detail-layout">
+      <div class="detail-image">
+        <img src="{{IMAGE}}" alt="{{NAME}}" onerror="this.src='https://via.placeholder.com/260x260?text=Boss'" />
+      </div>
+
+      <div class="detail-info">
+        <table>
+          <tbody>
+            <tr><th>📍 Location</th><td>{{LOCATION}}</td></tr>
+            <tr><th>⚔️ Difficulty</th><td><span class="difficulty difficulty-{{DIFFICULTY_LOWER}}">{{DIFFICULTY}}</span></td></tr>
+            <tr><th>🏆 Reward</th><td>{{REWARD}}</td></tr>
+          </tbody>
+        </table>
+
+        <article>
+          <h3>Description</h3>
+          <p>{{DESCRIPTION}}</p>
+        </article>
+
+        <article>
+          <h3>Lore</h3>
+          <p>{{LORE}}</p>
+        </article>
+
+        <article class="tips-box">
+          <h3>💡 Tips & Strategy</h3>
+          <p>{{TIPS}}</p>
+        </article>
+
+        <a href="/" role="button" class="outline">← Back to all bosses</a>
+      </div>
+    </main>
+
+    <footer class="container">
+      <small>Fan-made guide · Hollow Knight © Team Cherry</small>
+    </footer>
+  </body>
+</html>
