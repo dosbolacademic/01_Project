@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />](https://www.loom.com/share/3c5cc2d1938c4340a72d2b80ce7b60d6)
+[[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />](https://www.loom.com/share/3c5cc2d1938c4340a72d2b80ce7b60d6)](https://www.loom.com/share/3c5cc2d1938c4340a72d2b80ce7b60d6)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here
